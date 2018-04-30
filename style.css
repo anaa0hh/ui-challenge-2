@@ -1,0 +1,92 @@
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    border: 0px;
+}
+
+p {
+    font-size: 12px;
+}
+
+input[type=text], select, textarea {
+    font-size: 12px;
+    width: 30%; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+    
+input#submit-button button{
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+
+.container input {
+    opacity: 0;
+    cursor: pointer;
+}
+  
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border: solid;
+    background-color:rgb(253, 158, 158);
+}
+
+
+
+
+.radiocheck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border: solid;
+    background-color: rgb(253, 158, 158);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+#submit-button {
+    height: 40px;
+    width: 150px;
+    border: solid;
+    border-radius: 2px;
+    background-color: lightgrey;
+    transition: 250ms;
+}
